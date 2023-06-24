@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Média ADS</title>
+    <link rel="stylesheet" href="Media.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1><strong>Calcule sua MÉDIA SEMESTRAL!</strong></h1>
+        <h3>A idéia é calcular a média semestral do curso de Analise e Desenvolvimento de Sistemas!</h3>
+    
+        <div id="sections">
+            <section>
+                <br> <div id="ms">
+                    <p>Nota da Prova: <input type="number" name="number" id="txtprova"></p>
+                    <p>Nota do AVA: <input type="number" name="number" id="txtava"></p>
+                    <p>Nota do PIM: <input type="number" name="number" id="txtpim"></p> 
+                    <p><input type="button" value="Calcular Média Semestral" onclick="calcular_media()"></p>
+                    <div id="res"> </div>
+                    <div id="res1"></div> <br>
+                </div>
+            </section>
+    
+            <h1><strong>Calcule sua MÉDIA FINAL!</strong></h1>
+            <h3>A idéia é calcular a Média Final do curso de Analise e Desenvolvimento de Sistemas!</h3>
+            <section>
+            <br> <div id="mf">
+                    <p>Média Semestral: <input type="number" name="number" id="txtms"></p>
+                    <p>Nota do Exame: <input type="number" name="number" id="txtexame"></p>
+                    <p><input type="button" value="Calcular Média Final" onclick="mediafinal()"></p>
+                    <div id="res2"></div> <br>
+                </div>    
+            </section><br>
+        </div>
+
+        <script src="Media.js"></script>
+
+        <footer>&copy;LeonardoBalionis</footer>
+
+    </header> 
+    
+</body>
+
+</html>

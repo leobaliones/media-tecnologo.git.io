@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Times New Roman", serif;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+}
+
+#ms {
+    background-color: black;
+    border-radius: 20px ;
+    border: 2px solid yellow;
+    width: 350px;
+    height: 220px;
+    margin: auto;
+}
+
+#mf {
+    background-color: black;
+    border-radius: 20px ;
+    border: 2px solid yellow;
+    width: 350px;
+    height: 170px;
+    margin: auto;
+}
